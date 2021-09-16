@@ -1,7 +1,7 @@
 const aedes = require('aedes')()
 const ws = require('websocket-stream')
 const port = 8882
-const WEB_SOCKETS = false
+const WEB_SOCKETS = true
 let httpServer 
 
 if (WEB_SOCKETS) {
